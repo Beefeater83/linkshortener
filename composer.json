@@ -1,0 +1,16 @@
+{
+    "name": "vendor/app",
+    "description": "Reduce link website",
+    "type": "project",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Sergey Dyakonov",
+            "email": "beefeater83@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpmailer/phpmailer": "dev-master"       
+    }
+}

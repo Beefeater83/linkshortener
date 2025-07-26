@@ -1,0 +1,47 @@
+
+@media (min-width: 600px) {
+    .form-control {
+        width: 500px;
+    }
+}
+@media (max-width: 599px) and (min-width: 300px) {    
+    .form-control {
+        width: 80%;
+    }
+     h1 {
+        margin-left: 40px;
+    }
+}
+
+.form-control input,
+.form-control textarea {
+    width: 100%;
+    background: #fcfcfc;
+    border: 1px solid silver;
+    border-radius: 5px;
+    padding: 15px 20px;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+}
+
+.form-control textarea {
+    height: 150px;
+    resize: none;
+}
+
+.form-control .btn {
+    margin-top: 15px;
+    margin-left: 0;
+    background: #f8ba10;
+}
+
+.form-control .error {
+    color: #ff5644;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.form-control > p > a {color: #f33722;}
+
